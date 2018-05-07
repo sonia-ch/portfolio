@@ -1318,3 +1318,9 @@ blockquote .person cite {
     padding-left: 5px;
     margin-bottom: 40px;
 }
+
+.img-gifC {
+    text-align:center;
+    width: 60%;
+    margin-bottom: 40px;
+}
