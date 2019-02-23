@@ -110,6 +110,9 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-nav .fh5co-top-menu {
   width: 60%;
 }
+.fh5co-nav .fh5co-top-menu a{
+  cursor: pointer;
+}
 .fh5co-nav .fh5co-top-social {
   width: 20%;
 }
@@ -331,11 +334,22 @@ h1, h2, h3, h4, h5, h6, figure {
   zoom: 1;
   *display: inline;
   color: #cabcab;
+  color: rgba(0, 0, 0, 0.4);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.fh5co-social-icons li a:hover {
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  color: #cabcab;
+  color: black;
   padding-left: 10px;
   padding-right: 10px;
 }
 .fh5co-social-icons li a i {
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .fh5co-contact-info ul {
@@ -561,7 +575,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-heading {
-  margin-bottom: 5em;
+  margin-bottom: 2em;
 }
 .fh5co-heading.fh5co-heading-sm {
   margin-bottom: 2em;

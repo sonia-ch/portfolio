@@ -1,3 +1,14 @@
+/////////////////////////////////////////////////////////////
+// NAVIGATION MENU
+function scrollToElement(elementID) {
+  $('body,html').animate({
+    scrollTop: $(elementID).offset().top -100
+  }, 800);
+}
+
+/////////////////////////////////////////////////////////////
+
+
 ;(function () {
 	
 	'use strict';
