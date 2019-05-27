@@ -107,9 +107,9 @@
 
                         <p class="animate-box"><img src="../images/boids1.jpg" class="img-responsive" alt="Modelling a bird in Blender"></p>
                         <p class="animate-box"><img src="../images/boids2.jpg" class="img-responsive" alt="Model of a bird in Blender"></p>
-                        <p class="animate-box"><img src="../images/boids3.jpg" class="img-responsive" alt="Rigging the bird in Blender"></p>
+                        <!-- <p class="animate-box"><img src="../images/boids3.jpg" class="img-responsive" alt="Rigging the bird in Blender"></p> -->
                         <p class="animate-box"><img src="../images/boids4.jpg" class="img-responsive" alt="Rigging the bird in Blender"></p>
-                        <p class="animate-box"><img src="../images/boids5.jpg" class="img-responsive" alt="Animating the bird in Blender"></p>
+                        <!-- <p class="animate-box"><img src="../images/boids5.jpg" class="img-responsive" alt="Animating the bird in Blender"></p> -->
 
                         <p class="animate-box work-description">
                             <h2>Implementing boids algorithm in 2D</h2>
@@ -162,8 +162,12 @@
                             reflection of the boid's current direction (its forward axis) from the surface of the hit obstacle.
                         </p>
 
-                        <p class="animate-box"><img src="../images/boids13.gif" class="img-responsive" alt="Collision not avoided"></p>
-                        <p class="animate-box"><img src="../images/boids14.gif" class="img-responsive" alt="Avoiding collision"></p>
+                        <p class="animate-box"><img src="../images/boids13.gif" class="img-responsive" alt="Collision not avoided">
+                            Before implementing the obstacle avoidance, the birds fly through the terrain since they are configured to not have colliders.
+                        </p>
+                        <p class="animate-box"><img src="../images/boids14.gif" class="img-responsive" alt="Avoiding collision">
+                            Collision is detected by raycasting and the velocity is modified in order to dodge the obstacles.
+                        </p>
                         
                         <p class="animate-box work-description">
                             <h2>Real-time parameter tuning</h2>
@@ -175,7 +179,8 @@
                             time.
                         </p>
 
-                        <p class="animate-box"><img src="../images/boids17.gif" class="img-responsive" alt="Changing separation parameter"></p>
+                        <p class="animate-box"><img src="../images/boids17.gif" class="img-responsive" alt="Changing separation parameter">
+                        The separation distance is modified in real time and the video shows how that parameter affects the flock.</p>
 
                         <p><a href="https://sonia-ch.github.io/BoidsWebGL/index.html" class="btn btn-primary">Play simulation in WebGL</a></p>
 
@@ -183,13 +188,13 @@
                         <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
                         <div class="row row-pt-md portfolio-navigation">
                             <div class="col-xs-4 text-left">
-                                <a href="#" class="btn btn-primary btn-outline"><i class="icon-chevron-left"></i> Prev </a>
+                                <!-- <a href="#" class="btn btn-primary btn-outline"><i class="icon-chevron-left"></i> Prev </a> -->
                             </div>
                             <div class="col-xs-4 text-center">
                                 <a href="../index.html" class="btn btn-primary btn-outline"><i class="icon-grid2"></i> View All</a>
                             </div>
                             <div class="col-xs-4 text-right">
-                                <a href="#" class="btn btn-primary btn-outline">Next <i class="icon-chevron-right"></i></a>
+                                <a href="awayfromhome.html" class="btn btn-primary btn-outline">Next <i class="icon-chevron-right"></i></a>
                             </div>
                         </div>
                     </div>
